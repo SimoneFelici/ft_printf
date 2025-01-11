@@ -15,9 +15,11 @@ static int	count_ull_digits_base(unsigned long long n, int base_len)
 
 char	*ft_ulltoa_base(unsigned long long n, const char *base_str)
 {
-	int		base_len = 0;
+	int		base_len;
 	int		digits;
 	char	*str;
+
+	base_len = 0;
 	while (base_str[base_len])
 		base_len++;
 	digits = count_ull_digits_base(n, base_len);

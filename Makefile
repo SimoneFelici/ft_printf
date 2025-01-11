@@ -6,7 +6,7 @@ AR				=	ar
 ARFLAGS 		=	rcs
 RM				=	rm -rf
 
-SRC				=	ft_printf ft_uitoa ft_print_ptr ft_uitoabase ft_ulltoa_base
+SRC				=	ft_printf ft_uitoa ft_uitoabase ft_ulltoa_base ft_handle_char ft_handle_digit ft_handle_format ft_handle_hex ft_handle_ptr ft_handle_str ft_handle_unsigned ft_print_char ft_print_digit ft_print_str
 SRCS 			=	$(addsuffix .c, $(SRC))
 
 OBJ_DIR			=	obj
